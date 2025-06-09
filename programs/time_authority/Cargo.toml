@@ -1,0 +1,11 @@
+[package]
+name = "time_authority"
+version = "0.1.0"
+edition = "2021"
+
+[lib]
+name = "time_authority"
+crate-type = ["cdylib", "lib"]
+
+[dependencies]
+anchor-lang = "0.31.1"
